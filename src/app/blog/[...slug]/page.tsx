@@ -106,8 +106,6 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
     };
   });
 
-  console.log({ post });
-
   const newsDate = dayjs(post.date)
     .locale("th")
     .add(543, "year")
