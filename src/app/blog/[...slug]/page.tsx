@@ -18,6 +18,8 @@ import dayjs from "dayjs";
 import "dayjs/locale/th";
 import PostRelated from "../renderPostRelated";
 import * as _ from "lodash";
+import NcImage from "@/shared/NcImage/NcImage";
+import Image from "next/image";
 
 export async function generateMetadata({
   params,
@@ -179,6 +181,15 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
       />
 
       <div className="nc-PageSingle pt-8 lg:pt-16 ">
+        {/* <NcImage
+          alt=""
+          width={800}
+          height={450}
+          className="w-full rounded-xl"
+          containerClassName="container items-center my-10 sm:my-12"
+          src={post.images[0]}
+        /> */}
+
         {renderHeader()}
 
         <div className="relative bg-neutral-100 dark:bg-neutral-800 py-16 lg:py-28 mt-16 lg:mt-24">
