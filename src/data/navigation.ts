@@ -185,12 +185,12 @@ export const NAVIGATION_DEMO_2: NavItemType[] = [
   },
   {
     id: ncNanoId(),
-    href: "/collection-2",
+    href: "/search",
     name: "ทำนายฝัน",
   },
   {
     id: ncNanoId(),
-    href: "/collection",
+    href: "/",
     name: "เลขเด็ดเขียนมือ",
   },
 
@@ -201,12 +201,12 @@ export const NAVIGATION_DEMO_2: NavItemType[] = [
   },
   {
     id: ncNanoId(),
-    href: "/collection-2",
+    href: "/",
     name: "ผลหวย",
   },
   {
     id: ncNanoId(),
-    href: "/collection-2",
+    href: "/",
     name: "สถิติ",
   },
   // {

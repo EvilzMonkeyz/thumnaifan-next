@@ -4897,6 +4897,11 @@ react-swipeable@^7.0.1:
   resolved "https://registry.yarnpkg.com/react-swipeable/-/react-swipeable-7.0.1.tgz#cd299f5986c5e4a7ee979839658c228f660e1e0c"
   integrity sha512-RKB17JdQzvECfnVj9yDZsiYn3vH0eyva/ZbrCZXZR0qp66PBRhtg4F9yJcJTWYT5Adadi+x4NoG53BxKHwIYLQ==
 
+react-turnstile@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/react-turnstile/-/react-turnstile-1.1.2.tgz#ea53b4b2586cbafb6dd27276d78f20ddee2d85b9"
+  integrity sha512-wfhSf4JtXlmLRkfxMryU8yEeCbh401muKoInhx+TegYwP8RprUW5XPZa8WnCNZiYpMy1i6IXAb1Ar7xj5HxJag==
+
 react-universal-interface@^0.6.2:
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/react-universal-interface/-/react-universal-interface-0.6.2.tgz#5e8d438a01729a4dbbcbeeceb0b86be146fe2b3b"
